@@ -1,12 +1,12 @@
 :root {
-  --fundo-corpo: ghostwhite;
-  --fundo-cabecalho: lightgray;
-  --item-menu: black;
-  --fundo-item-menu: lightgray;
+  --fundo-corpo: #f0f2f5;
+  --cabecalho: white;
+  --fundo-cabecalho: #2d4a22;
+  --item-menu: white;
+  --fundo-item-menu: #2d4a22;
   --fundo-item-menu-mouse-sobre: rgba(0, 0, 0, 0.05);
-  --linha-separadora-item-menu: rgba(0, 0, 0, 0.05);
+  --linha-separadora-item-menu: rgba(255, 255, 255, 0.05);
 
-  --dark-green: #2d4a22;
   --green: #49aa26;
   --light-green: #3dd705;
   --ultra-light-green: #9eb396;
