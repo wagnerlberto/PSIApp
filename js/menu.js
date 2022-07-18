@@ -42,7 +42,7 @@ const Menu = {
   ,
   addMenu(todos) {
   // addMenu() {
-      Item.all.forEach( (items) => {
+    todos.forEach( (items) => {
       DOM.addItem(items)
     });
 

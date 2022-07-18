@@ -6,3 +6,5 @@ Menu.addMenu([
   { label: "Recibos", url: "#" },
   { label: "Contato", url: "#" },
 ]);
+
+// Menu.addMenu();
