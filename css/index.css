@@ -6,6 +6,7 @@
 
 body{
   background-color: var(--fundo-corpo);
+  font-family: sans-serif;
 }
 
 header {
