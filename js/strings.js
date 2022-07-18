@@ -12,6 +12,6 @@ const Strings = {
     { label: "Contato", url: "#" },
   ]
   ,
-  urlCentralImg: "./assets/quadro.jpeg"
+  urlCentralImg: "'./assets/quadro.jpeg'"
   ,
 }

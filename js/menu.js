@@ -1,12 +1,3 @@
-// const Item = {
-//   all: [
-//     { label: 'Pacientes', url: '#' },
-//     { label: 'Atendimentos', url: '#' },
-//     { label: 'Recibos', url: '#' },
-//     { label: 'Contato', url: '#' }
-//   ]
-// }
-
 const DOM = {
   menu: document.querySelector('#menu')
   ,
@@ -41,14 +32,9 @@ const Menu = {
   }
   ,
   addMenu(todos) {
-  // addMenu() {
     todos.forEach( (items) => {
       DOM.addItem(items)
     });
-
-    // Item.all.forEach( (item) => {
-    //   DOM.addItem(item)
-    // });
 
     const btnMobile = document.getElementById("btn-mobile");
     btnMobile.addEventListener("click", Menu.toggleMenu);
