@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--fundo-corpo);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: var(--fundo-cabecalho);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
