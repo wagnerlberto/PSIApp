@@ -18,6 +18,7 @@
 
 #btn-mobile{
   display: none;
+  color: var(--item-menu);
 }
 
 @media(max-width: 600px){
