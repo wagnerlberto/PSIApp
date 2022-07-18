@@ -1,6 +1,6 @@
 const systemName = "PSIApp";
 Logo.addTitle(systemName);
-// Logo.addHeader(systemName);
+Logo.addHeader(systemName);
 
 Menu.addMenu([
   { label: "Pacientes", url: "#" },
