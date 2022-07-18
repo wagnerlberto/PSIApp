@@ -1,0 +1,19 @@
+const Struct = {
+  addTitle(name) {
+    const element = document.getElementById("title");
+    const text = document.createTextNode(name);
+    element.appendChild(text);
+  }
+  ,
+  addHeader(name) {
+    const element = document.getElementById("headerText");
+    const text = document.createTextNode(name);
+    element.appendChild(text);
+  }
+  ,
+  addFooter(name) {
+    const element = document.getElementById("footerText");
+    const text = document.createTextNode(name);
+    element.appendChild(text);
+  }
+}

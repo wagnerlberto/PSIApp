@@ -1,6 +1,6 @@
-const systemName = "PSIApp";
-Logo.addTitle(systemName);
-Logo.addHeader(systemName);
+Struct.addTitle("PSIApp (c)");
+Struct.addHeader("PSIApp");
+Struct.addFooter("PSIApp - Todos os direitos reservados.");
 
 Menu.addMenu([
   { label: "Pacientes", url: "#" },
@@ -8,5 +8,3 @@ Menu.addMenu([
   { label: "Recibos", url: "#" },
   { label: "Contato", url: "#" },
 ]);
-
-// Menu.addMenu();

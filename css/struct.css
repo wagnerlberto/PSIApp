@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 1rem;
+  justify-content: space-between;
+  color: var(--cabecalho);
+  background-color: var(--fundo-cabecalho);
+}
+
+#headerText {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  color: var(--rodape);
+  background-color: var(--fundo-rodape);
+  opacity: 0.6;
+}
